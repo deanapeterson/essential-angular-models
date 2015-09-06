@@ -1,8 +1,18 @@
 # Introduction
+## Building Angular Applications the *Right* Way
+I have built a number of Angular applications over the past few years. Just like most developers, my experience learning Angular has had it's highs and lows.  Much like the now (in)famous blog post by Ben Nadel (need link).  The highs are reflected in the amazing amount of functionality that comes from Angular's binding method, expressions and native directives.  There is something wonderful when an app comes together with a minimal amout of code.
 
-I have built a number of Angular applications over the past few years. My experience learning Angular has had it's highs and lows.  Much like the now (in)famous blog post by Ben Nadel (need link).  The highs are reflected in the amazing amount of functionality that comes from Angular's binding method, expressions and native directives.  There is something wonderful when an app comes together with a minimal amout of code.
+The lows really start when starting to learn how write directives, provider vs factory vs service, what the heck is 'transclusion?'
 
-The lows really start when starting to learn how write directives and wrestling with how appropriately structure the app as it grows.
+The question that I'm always plagued by when creating an application is **how do I build this the right way?**  The corallary question is **What are the criteria that determines what the *right* way is?**
+
+I'm a very pragmatic developer, 
+
+My working Criteria:
+- Applications are easy to understand and reason with by the next guy (not you)
+- Scalable and extensible without hacking (
+- Clear, Inteligent abstractions of key pieces of functionality for the app
+- Modularity
 
 This series is NOT about directives or how best to structure your application. This is about how to build data models from the ground up that facilitate applications that will inevitably need to scale and be maintainable.
 
