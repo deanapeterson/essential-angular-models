@@ -4,15 +4,25 @@ I have built a number of Angular applications over the past few years. Just like
 
 The lows really start when starting to learn how write directives, provider vs factory vs service, what the heck is 'transclusion?'
 
-The question that I'm always plagued by when creating an application is **how do I build this the right way?**  The corallary question is **What are the criteria that determines what the *right* way is?**
+The question that I'm always plagued by when creating an application is **How do I build this the right way?** The corallary question is **What are the criteria that determines what the *right* way is?**
 
-I'm a very pragmatic developer, 
 
-My working Criteria:
-- Applications are easy to understand and reason with by the next guy (not you)
-- Scalable and extensible without hacking (
+## Defining the *Right Way* [1]
+
+**Maintainable** The best code is  
+**Easy to reason**
+- Scalable and extensible without hacking.
 - Clear, Inteligent abstractions of key pieces of functionality for the app
-- Modularity
+
+
+Methodologies 
+Modular - one module per file
+Consistent naming system.
+Automated testing
+Appropriate comments
+
+## What does all this have to do with data models?
+Simple, data models are the heart of your application.  It lives and dies by what happens with the data.  In the next 
 
 This series is NOT about directives or how best to structure your application. This is about how to build data models from the ground up that facilitate applications that will inevitably need to scale and be maintainable.
 
@@ -118,3 +128,5 @@ Model Object
 Collections
 
 
+Footnotes:
+1 - 'Right way' is a loaded term. I fully acknowledge that there is a span of valid approaches.  
